@@ -17,7 +17,7 @@ class NavBar extends React.Component {
             <img src={logoRickAndMorty} alt="" />
           </div>
           <div className={styles.container}>
-            <Link to={"/"}>
+            <Link to={"/RickAndMortyApi"}>
               <button className={styles.button}>
                 <AiFillHome />
               </button>

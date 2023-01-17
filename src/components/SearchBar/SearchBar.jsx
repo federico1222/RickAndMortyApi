@@ -106,9 +106,9 @@ const SearchBar = () => {
             );
           })}
         </div>
-      </div>
-      <div className={styles.container}>
+        <div className={styles.container}>
         <NavPage page={page} setPage={setPage} />
+      </div>
       </div>
     </div>
   );
