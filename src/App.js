@@ -16,7 +16,7 @@ function App() {
       <div className="App">
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/RickAndMortyApi" element={<Home />}></Route>
           <Route path="/Form" element={<Form />}></Route>
           <Route path="/SearchBar" element={<SearchBar />}></Route>
           <Route path="/AllEpisodes" element={<Episodes />}></Route>

@@ -2,7 +2,7 @@
   "name": "rick_and_morty",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://federico1222.github.io/",
+  "homepage": "https://federico1222.github.io/RickAndMortyApi",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/jest-dom": "^5.16.5",
