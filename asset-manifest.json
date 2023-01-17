@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/RickAndMortyApi/static/css/main.31998668.css",
+    "main.js": "/RickAndMortyApi/static/js/main.06c6869b.js",
+    "static/js/787.745e99b1.chunk.js": "/RickAndMortyApi/static/js/787.745e99b1.chunk.js",
+    "static/media/fondo-celular.png": "/RickAndMortyApi/static/media/fondo-celular.5bf28473c7f800b15a0e.png",
+    "static/media/637699.jpg": "/RickAndMortyApi/static/media/637699.788463411c24e672f765.jpg",
+    "static/media/fondo-celular2.png": "/RickAndMortyApi/static/media/fondo-celular2.69240020c039796734d4.png",
+    "static/media/Rick-And-Morty-Logo-650x366.png": "/RickAndMortyApi/static/media/Rick-And-Morty-Logo-650x366.82afdc8e4359331fa7fc.png",
+    "static/media/chico.png": "/RickAndMortyApi/static/media/chico.dd4752275bcc5f9efc36.png",
+    "static/media/titulo.png": "/RickAndMortyApi/static/media/titulo.9d8754e1096588d0df44.png",
+    "index.html": "/RickAndMortyApi/index.html",
+    "main.31998668.css.map": "/RickAndMortyApi/static/css/main.31998668.css.map",
+    "main.06c6869b.js.map": "/RickAndMortyApi/static/js/main.06c6869b.js.map",
+    "787.745e99b1.chunk.js.map": "/RickAndMortyApi/static/js/787.745e99b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31998668.css",
+    "static/js/main.06c6869b.js"
+  ]
+}
