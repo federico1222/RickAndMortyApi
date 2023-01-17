@@ -1,0 +1,171 @@
+/* input */
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.input {
+    width: 40%;
+    height: 40px;
+    background-color: #141516d9;
+    border: none;
+    border-radius: 8px;
+    color: antiquewhite;
+    font-size: 1em;
+    text-align: center;
+    
+
+}
+
+.button {
+    width: 15%;
+    height: 40px;
+    margin: 5px;
+    background-color: aquamarine;
+    border: 3px solid rgba(176, 251, 0, 0.714);
+    border-radius: 5px;
+    font-size: 1.2em;
+    box-shadow: 1px 2px 5px 1px rgba(254, 254, 254, 0.289);
+}
+
+.input:hover {
+    border: 3px solid rgba(176, 251, 0, 0.714);
+}
+
+.button:hover {
+    background-color: rgba(176, 251, 0, 0.714);
+    color: beige;
+    border-color: aquamarine;
+}
+
+/* input */
+
+/* Card */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.containerCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 11px;
+    background-color: #141516d9;
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+}
+
+.containerCard:hover {
+    border: 1.50px solid rgba(176, 251, 0, 0.714);
+}
+
+p {
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.img {
+    border-radius: 1000px;
+    width: 170px;
+    margin: 8px;
+}
+.Alive {
+    color: white;
+    background-color: rgba(176, 251, 0, 0.714);
+    width: 80px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+.Dead {
+    color: white;
+    background-color: red;
+    width: 80px;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 5px;
+}
+
+.unknown {
+    color: white;
+    background-color: gray;
+    width: 90px;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 5px;
+}
+
+/* Card */
+
+/* Paginacion */
+.NavPage {
+    margin: auto;
+    width: 95%;
+    height: 100%;
+    padding: 5px;
+    background-color: #141516d9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonPage {
+    width:100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    box-shadow: 1px 2px 5px 1px rgba(254, 254, 254, 0.289);
+    background-color:  rgba(176, 251, 0, 0.714);
+    border-color: aquamarine;
+    margin: 7px;
+}
+.buttonPage:hover {
+    background-color: aquamarine;
+    border-color: rgba(176, 251, 0, 0.714);
+
+}
+
+.pPage {
+    width: 50px;
+    height: 40px;
+    border-radius: 7px;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid  aquamarine;
+}
+
+/* Paginacion */
+
+@media screen and (max-width:930px) {
+    .form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .input {
+        width: 80%;
+    }
+
+    .button {
+        width: 50%;
+    }
+}

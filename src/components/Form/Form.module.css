@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Get Schwifty;
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/3089507/get-schwifty.woff') format('woff');
+}
+
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #141516d9;
+}
+
+.titulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p {
+    font-family: Get Schwifty;
+    font-size: 5.50rem;
+    color: aqua;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+.input {
+    width: 600px;
+    height: 40px;
+    margin: 5px;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    background-color: rgba(22, 21, 21, 0.932);
+    font-weight: 300;
+    font-size: 1em;
+    padding-left: 5px;
+    color: aliceblue;
+}
+
+.input:hover {
+    border: 3px solid rgba(176, 251, 0, 0.714);
+}
+
+.button {
+    width: 40%;
+    height: 40px;
+    background-color: aquamarine;
+    border: 3px solid rgba(176, 251, 0, 0.714);
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: rgba(176, 251, 0, 0.714);
+    color: black;
+    border-color: aquamarine;
+}
+
+@media screen and (max-width:677px) {
+    .input {
+        width: 100%;
+    }
+    .p {
+        font-size: 3em;
+        margin: 6px;
+    }
+     .container {
+        width: 90%;
+     }
+}
+
+

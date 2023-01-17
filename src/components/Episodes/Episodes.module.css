@@ -1,0 +1,207 @@
+.container {
+    width: 90%;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* input */
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.input {
+    width: 40%;
+    height: 40px;
+    background-color: #141516d9;
+    border: none;
+    border-radius: 8px;
+    color: antiquewhite;
+    font-size: 1em;
+    text-align: center;
+
+
+}
+
+.button {
+    width: 15%;
+    height: 40px;
+    margin: 5px;
+    background-color: aquamarine;
+    border: 3px solid rgba(176, 251, 0, 0.714);
+    border-radius: 5px;
+    font-size: 1.2em;
+    box-shadow: 1px 2px 5px 1px rgba(254, 254, 254, 0.289);
+}
+
+.input:hover {
+    border: 3px solid rgba(176, 251, 0, 0.714);
+}
+
+.button:hover {
+    background-color: rgba(176, 251, 0, 0.714);
+    color: beige;
+    border-color: aquamarine;
+}
+
+/* input */
+.col2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.table {
+    width: 100%;
+    color: white;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.tableResponsive {
+    display: none;
+}
+
+.table:first-child th:first-child {
+    border-top-left-radius: 8px;
+}
+
+.table:first-child th:last-child {
+    border-top-right-radius: 8px;
+}
+
+.th,
+.td {
+    padding: 12px;
+    background-color: #141516d9;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.td:hover {
+    background-color: rgba(240, 248, 255, 0.671);
+    color: black;
+    font-weight: 800;
+}
+
+.thead {
+    font-size: 1.10em;
+    border-bottom: 1px solid rgba(176, 251, 0, 0.714);
+    background-color: #141516d9;
+}
+
+/* Paginacion */
+.nav {
+    width: 100%;
+    background-color: #141516d9;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top: 2px solid rgba(176, 251, 0, 0.714);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.aPage {
+    width: 50%;
+    font-size: 2rem;
+    color: rgba(176, 251, 0, 0.714);
+    display: flex;
+    justify-content: end;
+}
+
+.pPage {
+    width: 50%;
+    font-size: 2rem;
+}
+
+/* Paginacion */
+@media screen and (max-width:439px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aPage {
+        width: 100%;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .pPage {
+        width: 100%;
+        font-size: 1.50rem;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width:964px) {
+    .form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input {
+        width: 80%;
+    }
+
+    .button {
+        width: 30%;
+    }
+
+    .table {
+        display: none;
+    }
+
+    .tableResponsive {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .columna {
+        width: 600px;
+        background-color: #141516d9;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .tituloResponsive {
+        text-align: center;
+        border-bottom: 1px solid rgba(176, 251, 0, 0.714);
+        font-size: 1.50rem;
+        background-color: #141516d9;
+    }
+
+    @media screen and (max-width:674px) {
+        .columna {
+            width: 100%;
+        }
+    }
+    @media screen and (max-width:344px) {
+        .url {
+            display: none;
+        }
+    }
+}

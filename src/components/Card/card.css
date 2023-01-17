@@ -1,0 +1,177 @@
+@font-face {
+    font-family: Get Schwifty;
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/3089507/get-schwifty.woff') format('woff');
+}
+.container{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 60%;
+    margin: 20px;
+    border-radius: 10px;
+    background-color:  #141516d9;
+}
+
+
+.contenedor-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    border-radius: 1000px;
+    margin-top: 40px;
+}
+
+.titulo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.titulo h1 {
+    font-family: 'Get Schwifty';
+    font-size: 4rem;
+    margin: 10px;
+    color:aqua;
+}
+.Alive {
+    color: black;
+    background-color: rgba(176, 251, 0, 0.905);
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px;
+    font-size: 2rem;
+    font-weight: 350;
+}
+.Dead  {
+    color: white;
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px;
+    font-size: 2rem;
+}
+.unknown {
+    color: white;
+    background-color: grey;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px;
+    font-size: 2rem;
+}
+
+.datos {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.datos-responsive {
+    display: none;
+}
+.col1 {
+    background-color: #141516d9;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.col {
+    margin: 10px;
+    font-size: 1.50rem;
+}
+
+.col2 {
+    border-bottom: 1px solid rgba(176, 251, 0, 0.714);
+    border-top: 1px solid rgba(176, 251, 0, 0.714);
+    border-right: 1px solid rgba(176, 251, 0, 0.714);
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.col-2 {
+    margin: 12px;
+    font-size: 1.50rem;
+}
+
+.link-back {
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+@media screen and (max-width:1000px) {
+    .titulo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:740px) {
+    .titulo h1 {
+        font-family: 'Get Schwifty';
+        font-size: 3rem;
+        margin: 10px;
+        text-align: center;
+    }
+    .img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:927px) {
+    .card {
+        width: 80%;
+    }
+    .datos {
+        display: none;
+    }
+    .datos-responsive {
+        display: block;
+    }
+    .col1-responsive {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.50rem;
+        text-align: center;
+    }
+
+    .col-responsive {
+        width: 100%;
+        background-color: #141516d9;
+    }
+    .col-2-responsive {
+        margin: 10px;
+    }
+}
+@media screen and (max-width:1324px) {
+    body {
+      background-image: url(/img/fondo-celular.png);
+    }
+  }
+  @media screen and (max-width:619px) {
+    body {
+      background-image: url(/img/fondo-celular2.png);
+    }
+  }
