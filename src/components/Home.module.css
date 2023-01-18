@@ -23,6 +23,7 @@
     border: 1.50px solid rgba(176, 251, 0, 0.714);
     font-size: 1.50em;
     border-radius: 10px;
+    backdrop-filter: blur(30px);
 }
 
 .option {
