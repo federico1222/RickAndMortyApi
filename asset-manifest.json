@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/RickAndMortyApi/static/css/main.29eb8e93.css",
+    "main.css": "/RickAndMortyApi/static/css/main.b72bab18.css",
     "main.js": "/RickAndMortyApi/static/js/main.783f7105.js",
     "static/js/787.745e99b1.chunk.js": "/RickAndMortyApi/static/js/787.745e99b1.chunk.js",
     "static/media/fondo-celular.png": "/RickAndMortyApi/static/media/fondo-celular.5bf28473c7f800b15a0e.png",
@@ -9,12 +9,12 @@
     "static/media/chico.png": "/RickAndMortyApi/static/media/chico.dd4752275bcc5f9efc36.png",
     "static/media/titulo.png": "/RickAndMortyApi/static/media/titulo.9d8754e1096588d0df44.png",
     "index.html": "/RickAndMortyApi/index.html",
-    "main.29eb8e93.css.map": "/RickAndMortyApi/static/css/main.29eb8e93.css.map",
+    "main.b72bab18.css.map": "/RickAndMortyApi/static/css/main.b72bab18.css.map",
     "main.783f7105.js.map": "/RickAndMortyApi/static/js/main.783f7105.js.map",
     "787.745e99b1.chunk.js.map": "/RickAndMortyApi/static/js/787.745e99b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29eb8e93.css",
+    "static/css/main.b72bab18.css",
     "static/js/main.783f7105.js"
   ]
 }
