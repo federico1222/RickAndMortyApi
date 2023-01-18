@@ -17,6 +17,14 @@
     margin-bottom: 50px;
 }
 
+.descripcion {
+    margin: 20px;
+    padding: 20px;
+    border: 1.50px solid rgba(176, 251, 0, 0.714);
+    font-size: 1.50em;
+    border-radius: 10px;
+}
+
 .option {
     width: 80%;
     text-align: center;

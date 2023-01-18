@@ -18,13 +18,4 @@ body {
   padding: 5px;
 }
 
-@media screen and (max-width:1324px) {
-  body {
-    background-image: url(/img/fondo-celular.png);
-  }
-}
-@media screen and (max-width:619px) {
-  body {
-    background-image: url(/img/fondo-celular2.png);
-  }
-}
+
