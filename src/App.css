@@ -17,7 +17,7 @@ body {
   flex-direction: column;
   padding: 5px;
 }
-@media screen and (max-width:1324px) {
+@media screen and (max-width:1000px) {
   body {
     background-image: url(/img/—Pngtree—smoke\ abstract\ background\ gradient\ circle_945341.jpg);
     background-size: cover;
