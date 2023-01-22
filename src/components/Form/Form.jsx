@@ -23,6 +23,7 @@ const Form = (props) => {
 
   const handleSubmit = (event) => {
      //para que no se recargue la pagina cuando hago el submit
+
     props.createCharacter({
       ...form,
       id: Date.now,
