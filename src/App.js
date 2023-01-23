@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar/NavBar";
 import SearchBar from "./components/SearchBar/SearchBar";
 import Episodes from "./components/Episodes/Episodes";
 import Card from "./components/Card/Card";
+import Favorite from "./components/Favorite/Favorite"
 
 
 import "./App.css";
@@ -17,6 +18,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/RickAndMortyApi" element={<Home />}></Route>
+          <Route path="/Favorite" element={<Favorite />}></Route>
           <Route path="/Form" element={<Form />}></Route>
           <Route path="/SearchBar" element={<SearchBar />}></Route>
           <Route path="/AllEpisodes" element={<Episodes />}></Route>

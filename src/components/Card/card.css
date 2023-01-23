@@ -52,6 +52,7 @@
     margin: 20px;
     font-size: 2rem;
     font-weight: 350;
+    margin-top: 25px;
 }
 .Dead  {
     color: white;
@@ -114,6 +115,13 @@
     margin: 10px;
 }
 
+.buttonFav {
+    color: rgba(176, 251, 0, 0.714);
+    background-color: transparent;
+    font-size: 3em;
+    border-color: transparent;
+}
+
 @media screen and (max-width:1000px) {
     .titulo{
         width: 100%;
@@ -136,7 +144,7 @@
     }
 }
 
-@media screen and (max-width:927px) {
+@media screen and (max-width:1038px) {
     .card {
         width: 80%;
     }

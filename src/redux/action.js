@@ -1,7 +1,7 @@
 export const GET_CHARACTER = "GET_CHARACTER";
 export const DELETE_CHARACTER = "DELETE_CHARACTER";
 export const CREATE_CHARACTER = "FORM_CHARACTER";
-export const SEARCH_CHARACTER = "SEARCH_CHARACTER";
+export const ALL_MY_FAVORITES = "ALL_MY_FAVORITES";
 
 export const getCharacter = () => {
   return function (dispatch) {
@@ -13,13 +13,14 @@ export const getCharacter = () => {
       );
   };
 };
-export const deleteCharacter = (id) => {
-  return { type: DELETE_CHARACTER, payload: id };
+export const deleteCharacter = (character) => {
+  return { type: DELETE_CHARACTER, payload: character };
 };
 export const createCharacter = (character) => {
   return { type: CREATE_CHARACTER, payload: character };
 };
-export const searchCharacter = (nameCharacter) => {
-  return {type: SEARCH_CHARACTER, payload:nameCharacter}
-}
+export const allMyFavorite = (character) => {
+  return { type: ALL_MY_FAVORITES, payload: character };
+};
+
 

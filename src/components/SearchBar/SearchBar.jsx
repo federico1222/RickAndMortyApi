@@ -6,6 +6,7 @@ import styles from "./SearchBar.module.css";
 import { AiFillCaretLeft, AiFillCaretRight } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
+
 const NavPage = (props) => {
   return (
     <div className={styles.NavPage}>

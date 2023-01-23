@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import styles from "./NavBar.module.css";
 import logoRickAndMorty from "../../assets/titulo.png";
 import { AiFillHome } from "react-icons/ai";
+import { IoHeartSharp} from "react-icons/io5";
 
 class NavBar extends React.Component {
   constructor(props) {
@@ -17,6 +18,11 @@ class NavBar extends React.Component {
             <img src={logoRickAndMorty} alt="" />
           </div>
           <div className={styles.container}>
+            <Link to={"/Favorite"}>
+              <button className={styles.button}>
+                <IoHeartSharp/>
+              </button>
+            </Link>
             <Link to={"/RickAndMortyApi"}>
               <button className={styles.button}>
                 <AiFillHome />

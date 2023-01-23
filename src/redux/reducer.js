@@ -3,12 +3,13 @@ import {
   CREATE_CHARACTER,
   DELETE_CHARACTER,
   GET_CHARACTER,
+  ALL_MY_FAVORITES
 } from "./action";
 
 const initialState = {
   characters: [],
   myCharacters: [],
-  detail: {},
+  MyFavorites: []
 };
 
 const reducer = (state = initialState, action) => {
@@ -18,11 +19,16 @@ const reducer = (state = initialState, action) => {
         ...state,
         characters: action.payload,
       };
+      case ALL_MY_FAVORITES:
+        return {
+          ...state,
+          MyFavorites: [...state.MyFavorites, action.payload]
+        };
     case DELETE_CHARACTER:
       return {
         ...state,
-        characters: state.characters.filter(
-          (character) => character.id !== action.payload
+        MyFavorites: state.MyFavorites.filter(
+          (character) => character !== action.payload
         ),
       };
     case CREATE_CHARACTER:
