@@ -4,8 +4,7 @@ import styles from "./Favorite.module.css";
 
 const Favorite = (props) => {
   return (
-    <>
-        <div className="container">
+        <div className={styles.container}>
       {props.MyFavorites?.map((fav, i) => {
         return (
           <div className={styles.containerCard}>
@@ -18,7 +17,6 @@ const Favorite = (props) => {
         );
       })}
     </div>
-    </>
   );
 };
 
