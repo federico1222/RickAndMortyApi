@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RickAndMortyApi/static/css/main.669e7864.css",
-    "main.js": "/RickAndMortyApi/static/js/main.1007b694.js",
+    "main.css": "/RickAndMortyApi/static/css/main.4488797c.css",
+    "main.js": "/RickAndMortyApi/static/js/main.bd714195.js",
     "static/js/787.745e99b1.chunk.js": "/RickAndMortyApi/static/js/787.745e99b1.chunk.js",
     "static/media/—Pngtree—smoke abstract background gradient circle_945341.jpg": "/RickAndMortyApi/static/media/—Pngtree—smoke abstract background gradient circle_945341.94ecf3724ff878b03884.jpg",
     "static/media/637699.jpg": "/RickAndMortyApi/static/media/637699.788463411c24e672f765.jpg",
@@ -9,12 +9,12 @@
     "static/media/chico.png": "/RickAndMortyApi/static/media/chico.dd4752275bcc5f9efc36.png",
     "static/media/titulo.png": "/RickAndMortyApi/static/media/titulo.9d8754e1096588d0df44.png",
     "index.html": "/RickAndMortyApi/index.html",
-    "main.669e7864.css.map": "/RickAndMortyApi/static/css/main.669e7864.css.map",
-    "main.1007b694.js.map": "/RickAndMortyApi/static/js/main.1007b694.js.map",
+    "main.4488797c.css.map": "/RickAndMortyApi/static/css/main.4488797c.css.map",
+    "main.bd714195.js.map": "/RickAndMortyApi/static/js/main.bd714195.js.map",
     "787.745e99b1.chunk.js.map": "/RickAndMortyApi/static/js/787.745e99b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.669e7864.css",
-    "static/js/main.1007b694.js"
+    "static/css/main.4488797c.css",
+    "static/js/main.bd714195.js"
   ]
 }
