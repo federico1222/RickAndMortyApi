@@ -16,7 +16,24 @@
     background-color:  #141516d9;
 }
 
+.button-back {
+    width:80px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    box-shadow: 1px 2px 5px 1px rgba(254, 254, 254, 0.289);
+    background-color:  rgba(176, 251, 0, 0.714);
+    border-color: aquamarine;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-back:hover {
+    background-color: aquamarine;
+    border-color: rgba(176, 251, 0, 0.714);
 
+}
 .contenedor-img {
     display: flex;
     justify-content: center;
@@ -25,7 +42,6 @@
 
 .img {
     border-radius: 1000px;
-    margin-top: 40px;
 }
 
 .titulo{
@@ -141,6 +157,17 @@
     }
     .img {
         width: 50%;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;
+    }
+    .button-back {
+        width: 50px;
+        height: 30px;
     }
 }
 

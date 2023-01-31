@@ -10,8 +10,11 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     margin-top: 10px;
+    border: 3px solid rgba(176, 251, 0, 0.714);
+    border-radius: 10px;
+    padding:30px;
 }
 
 .containerCard {
@@ -87,3 +90,4 @@ p {
 
 }
 }
+

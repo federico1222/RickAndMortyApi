@@ -6,6 +6,8 @@ import { connect } from "react-redux";
 import { allMyFavorite , deleteCharacter} from "../../redux/action";
 import { IoHeartOutline, IoHeartSharp } from "react-icons/io5";
 import { useDispatch } from "react-redux";
+import { AiFillCaretLeft} from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 
 const Card = (props) => {
@@ -57,6 +59,11 @@ const Card = (props) => {
     <>
       <div className="container ">
         <div className="card animate__animated animate__fadeInLeft">
+          <div className="button-container">
+          <Link to={"/SearchBar"}>
+          <button className="button-back"><AiFillCaretLeft/></button>
+          </Link>
+          </div>
           <div className="contenedor-img">
             <img className="img" src={character.image} alt="" />
           </div>
