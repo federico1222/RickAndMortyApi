@@ -37,6 +37,10 @@
     font-size: 5em;
     font-family: Get Schwifty;
     color: aqua;
+
+}
+
+.option:hover {
     text-shadow: 2px 2px 10px rgb(148, 211, 0);
 }
 
@@ -61,11 +65,10 @@ a:link { text-decoration:none; } a:visited { text-decoration:none; }
     }
     .container {
         width: 90%;
-        margin: 100px;
+        margin: 50px;
     }
 }
 @media screen and (max-width:992px) {
-
 
     .rickandmorty {
         content:url("../assets/chico.png");
@@ -75,3 +78,13 @@ a:link { text-decoration:none; } a:visited { text-decoration:none; }
     }
 }
 
+@media screen and (max-width:370px) {
+
+    .rickandmorty {
+        content:url("../assets/mas-chico.png");
+    }
+    .option p {
+        font-size: 2em;
+    }
+
+}

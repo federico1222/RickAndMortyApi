@@ -4,7 +4,7 @@
 }
 
 .container {
-    margin-top: 50px;
+    margin-top: 150px;
     padding: 20px;
     border-radius: 10px;
     background-color: #141516d9;
@@ -73,6 +73,7 @@
     }
      .container {
         width: 90%;
+        margin-top: 100px;
      }
 }
 

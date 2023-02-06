@@ -7,7 +7,7 @@ const Favorite = (props) => {
     <>
     <h1 className={styles.h1}>Favorites</h1>
         <div className={styles.container}>
-      {props.MyFavorites?.map((fav, i) => {
+      {props.MyFavorites?.map((fav) => {
         return (
           <div className={styles.containerCard}>
           <p> Name: {fav.name}</p>
